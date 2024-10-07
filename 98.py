@@ -57,7 +57,7 @@ logo4 = """
 \x1b[1;96m         {|} {|}  {|}    {|}       {|}
 \x1b[1;94m     {|}{|}   {|}{|}     {|}       {|}
 \x1b[1;93m
-\x1b[1;92m         Jutt Badshah Brand~
+\x1b[1;92m         Jutt tenjo Brand~
 \x1b[1;91m-----------------------------------------------
 \x1b[1;97m> Author : Jutt Badshah
 \x1b[1;97m> Github : https://github.com/SHOOTER-MAKER
