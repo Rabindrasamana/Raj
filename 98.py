@@ -22,8 +22,7 @@ def inbox(session):
         address = data["mail_list"][0]["subject"]
         session = address.replace('FB-', '').replace('is your Facebook confirmation code', '')
         return session
-     
-ugen = []
+     ugen = []
 for xd in range(5000):
     aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['5','6','7','8','9','10','11','12'])
@@ -32,14 +31,14 @@ for xd in range(5000):
         bv=b+'.'+z+'.'+z
     else:
         bv=b
-    B=['SM-A045F, SM-A045F/DS, SM-A045M']
+    B=['1907, V1907, 1907_19, V1913A']
     c=random.choice(B)
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
-    i='129.0.0.0'
+    i='111.0.0.0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
     l='Mobile Safari/537.36'
@@ -47,6 +46,7 @@ for xd in range(5000):
     V=str(random.randrange(11,99))
     uas=f'{aa} {bv}; {c}{d}{e}{f} Build/{d}{f}{V}{f}; wv) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uas)
+
 logo4 = """
 \x1b[1;91m
 \x1b[1;92m
